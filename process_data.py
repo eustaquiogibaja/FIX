@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Leer el archivo de Excel
-datos = pd.read_excel('datos.xlsx')
+datos = pd.read_excel('hotel_bookings.csv')
 
 # Realizar algún procesamiento de datos (ejemplo: calcular la suma de una columna)
-suma_columna = datos['Columna'].sum()
+suma_columna = datos['children'].sum()
 
 # Generar un informe en formato CSV
 informe = pd.DataFrame({'Suma': [suma_columna]})
