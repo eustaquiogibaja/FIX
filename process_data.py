@@ -4,7 +4,7 @@ import pandas as pd
 datos = pd.read_excel('hotel_bookings.csv')
 
 # Realizar algún procesamiento de datos (ejemplo: calcular la suma de una columna)
-suma_columna = datos['children'].sum()
+suma_columna = datos['personas'].sum()
 
 # Generar un informe en formato CSV
 informe = pd.DataFrame({'Suma': [suma_columna]})
